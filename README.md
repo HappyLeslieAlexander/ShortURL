@@ -49,7 +49,7 @@ CREATE TABLE IF NOT EXISTS logs (
 ## API
 
 ### 生成随机短链接
-POST https://argun.leslieblog.top/create
+POST https://shorturl.leslieblog.top/create
 Content-Type: application/json
 
 {
@@ -57,10 +57,14 @@ Content-Type: application/json
 }
 
 ### 生成指定 slug 短链接
-POST https://argun.leslieblog.top/create
+POST https://shorturl.leslieblog.top/create
 Content-Type: application/json
 
 {
   "url": "leslieblog.top",
   "slug": "leslie"
 }
+
+## 审查
+
+暂时没有审查，后续可能会调整
