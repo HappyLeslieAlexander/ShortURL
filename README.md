@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS logs (
 ## API
 
 ### 生成随机短链接
-POST https://shorturl.leslieblog.top/create
+POST https://tgdev.top/create
 Content-Type: application/json
 
 {
@@ -56,7 +56,7 @@ Content-Type: application/json
 }
 
 ### 生成指定 slug 短链接
-POST https://shorturl.leslieblog.top/create
+POST https://tgdev.top/create
 Content-Type: application/json
 
 {
